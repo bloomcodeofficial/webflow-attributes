@@ -28,13 +28,10 @@ dropdownToggle.addEventListener('click', () => {
   // Disable scrolling when the link is clicked
   if (dropdown.classList.contains('is-active')) {
     document.body.style.overflow = 'hidden';
-    document.body.style.paddingRight = '15px';
   } else if (window.innerWidth < 991) {
     document.body.style.overflow = 'hidden';
-    document.body.style.paddingRight = '15px';
   } else {
     document.body.style.overflow = 'auto';
-    document.body.style.paddingRight = '0px';
   }
 });
 
@@ -49,19 +46,7 @@ mobileNavToggle.addEventListener('click', () => {
   // Disable scrolling when the navbar is visible in mobile
   if (mobileNav.classList.contains('is-active') && window.innerWidth < 991) {
     document.body.style.overflow = 'hidden';
-    document.body.style.paddingRight = '15px';
   } else {
     document.body.style.overflow = 'auto';
-    document.body.style.paddingRight = '0px';
   }
 });
-
-if (window.innerWidth > 991) {
-  document.body.style.overflow = 'auto';
-  document.body.style.paddingRight = '0px';
-}
-
-if (window.innerWidth <= 991) {
-  document.body.style.overflow = 'auto';
-  document.body.style.paddingRight = '0px';
-}
