@@ -30,7 +30,6 @@ dropdownToggle.addEventListener('click', () => {
     document.body.style.overflow = 'hidden';
   } else if (window.innerWidth < 991) {
     document.body.style.overflow = 'hidden';
-    document.body.style.overflow = 'auto';
   } else {
     document.body.style.overflow = 'auto';
   }
