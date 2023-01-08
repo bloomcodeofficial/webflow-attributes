@@ -66,4 +66,3 @@ if (window.innerWidth <= 991) {
   document.body.style.paddingRight = '0px';
 }
 
-// Test
