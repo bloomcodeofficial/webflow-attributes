@@ -38,6 +38,7 @@ dropdownToggle.addEventListener('click', () => {
     document.body.style.overflow = 'hidden';
   } else {
     document.body.style.overflow = 'auto';
+    document.body.style.paddingRight = '0px';
   }
 });
 
@@ -56,5 +57,6 @@ mobileNavToggle.addEventListener('click', () => {
     document.body.style.paddingRight = '15px';
   } else {
     document.body.style.overflow = 'auto';
+    document.body.style.paddingRight = '0px';
   }
 });
