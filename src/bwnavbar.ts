@@ -33,9 +33,9 @@ dropdownToggle.addEventListener('click', () => {
   // Disable scrolling when the link is clicked
   if (dropdown.classList.contains('active-dropdown')) {
     document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = '15px';
   } else if (window.innerWidth < 991) {
     document.body.style.overflow = 'hidden';
-    document.body.style.paddingRight = '15px';
   } else {
     document.body.style.overflow = 'auto';
   }
