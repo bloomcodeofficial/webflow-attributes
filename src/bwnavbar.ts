@@ -47,7 +47,7 @@ const mobileNavToggle = document.querySelector('[bw-navbar="mobile-toggle"]');
 const mobileNav = document.querySelector('[bw-navbar="menu"]');
 
 mobileNavToggle.addEventListener('click', () => {
-  mobileNavToggle?.classList.toggle('active-menu');
+  mobileNavToggle?.classList.toggle('is-active');
   mobileNav.classList.toggle('active-menu');
   navbar?.classList.toggle('white-nav');
 
