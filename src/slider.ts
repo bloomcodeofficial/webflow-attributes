@@ -10,29 +10,33 @@ $('.slider_component').each(function (index) {
 
   const swiper = new Swiper($(this).find('.swiper')[0], {
     slidesPerView: '1',
+    loop: false,
     speed: 700,
     keyboard: true,
+    initialSlide: 1,
     mousewheel: {
       forceToAxis: true,
     },
-    freemode: true,
     spaceBetween: '5%',
-    grabCursor: true,
     breakpoints: {
       // mobile portrait
       320: {
-        slidesPerView: '1',
+        slidesPerView: 1.3,
         spaceBetween: '4%',
+        centeredSlides: true,
       },
+
       // mobile landscape
       480: {
-        slidesPerView: '2',
+        slidesPerView: 1.3,
         spaceBetween: '4%',
+        centeredSlides: true,
       },
       // tablet
       768: {
-        slidesPerView: 2,
+        slidesPerView: 1.4,
         spaceBetween: '3%',
+        centeredSlides: true,
       },
       // desktop
       992: {
